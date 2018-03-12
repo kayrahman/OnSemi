@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "96966737651",
+    "firebase_url": "https://on-semi.firebaseio.com",
+    "project_id": "on-semi",
+    "storage_bucket": "on-semi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96966737651:android:0ce6720c9526bb7f",
+        "android_client_info": {
+          "package_name": "neel.com.onsemi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96966737651-93is96p7dcs8ha27qgm2v7j0f1iimbmj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "neel.com.onsemi",
+            "certificate_hash": "b3524f1342ca6fa3642abb8cd511639cfc778bd6"
+          }
+        },
+        {
+          "client_id": "96966737651-0v9jsd6tdks2pct4tnt12dvqjgtcen1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARISQl1W4xXUS8HoVGDhgeLdIE4GRgrLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96966737651-0v9jsd6tdks2pct4tnt12dvqjgtcen1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".view.ui.RegisterActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OnSemi"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/linear_layout1"
+        android:layout_marginBottom="30dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <EditText
+            android:id="@+id/register_input_employee_id"
+            style="@style/InputField.Credential.Email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/input_background"
+            android:hint="Employee ID"
+            android:padding="8dp"
+            android:textColorHint="#808080"
+
+
+            />
+
+      <!--  <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Phone Number"
+            android:background="@drawable/input_background"
+            style="@style/InputField.Credential.Email"
+            android:id="@+id/register_input_phone_number"
+            android:layout_below="@+id/register_input_name"
+            android:layout_marginTop="19dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#808080"
+            android:padding="8dp"
+
+            />-->
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_ac_register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linear_layout1"
+        android:layout_marginTop="30dp"
+        android:elevation="4dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="25dp"
+        app:cardBackgroundColor="@color/colorGray"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proceed"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+               android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="InputField" parent="Widget.AppCompat.EditText" />
+
+    <style name="InputField.Credential">
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:gravity">left</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+    <style name="InputField.Credential.Name">
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="InputField.Credential.Email">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="InputField.Credential.Password">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="textStyle" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="btnStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_marginLeft">@dimen/horizontal_widget_margin</item>
+        <item name="android:layout_marginRight">@dimen/horizontal_widget_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+    <style name="textStyleHardCoded" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-small</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">normal</item>
+       <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="edittext" parent="@android:style/Widget.Holo.Light.EditText">
+        <item name="android:textSize">@dimen/txt_15sp</item>
+        <item name="android:textColor">@color/main_grey_dk</item>
+        <item name="android:textColorHint">@color/main_grey</item>
+        <item name="android:paddingLeft">@dimen/pad_10dp</item>
+        <item name="android:paddingRight">@dimen/pad_10dp</item>
+        <item name="android:drawablePadding">@dimen/pad_20dp</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:backgroundTint">@color/colorAccent </item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+    <dimen name="horizontal_widget_margin">12dp</dimen>
+    <dimen name="txt_15sp">15dp</dimen>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="pad_20dp">20dp</dimen>
+    <color name="colorTint">#CCFFFFFF</color>
+    <color name="colorEditText">#bc0052</color>
+</resources>
